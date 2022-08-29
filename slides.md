@@ -23,29 +23,295 @@ drawings:
 css: unocss
 ---
 
-# Welcome to Slidev
+# How I got 1600 stars on GitHub in 2 months of Open Source work
 
-Presentation slides for developers
 
-<div class="pt-12">
-  <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
-    Press Space for next page <carbon:arrow-right class="inline"/>
-  </span>
+<div class="pt-13 relative">
+  <div class="absolute px-2 py-1 rounded cursor-pointer right-0" hover="bg-white bg-opacity-10">
+    <div>https://twitter.com/hung_dev</div>
+     <div>https://github.com/nvh95</div>
+  </div>
 </div>
 
-<div class="abs-br m-6 flex gap-2">
-  <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon:edit />
-  </button>
-  <a href="https://github.com/slidevjs/slidev" target="_blank" alt="GitHub"
-    class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon-logo-github />
-  </a>
-</div>
+<!-- TODO: Add jest preview logo and QR code -->
+
+<style>
+  .slidev-layout.cover h1, .slidev-layout.intro h1 {
+    font-size: 2.5rem;
+  }
+</style>
 
 <!--
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
 -->
+
+---
+
+# Hi, My name is Hung 👋
+<!-- TODO: Profile image in the right (use layout) -->
+
+- Full-time Open Source contributor
+- Creator of <a href="https://github.com/nvh95/jest-preview">Jest Preview</a>
+- Core member of <a href="https://www.bestofjs.org">bestofjs.org</a>
+- Ex - Lead Frontend Engineer @ Got It Inc.
+- Obsession with DX
+- Connect with me:
+  - <carbon-logo-twitter />: <a href="https://twitter.com/hung_dev" target="_blank">@hung_dev</a>
+  - <carbon-logo-github />: <a href="https://github.com/nvh95" target="_blank">@nvh95</a>
+  - 🔗: <a href="https://hung.dev" target="_blank">hung.dev</a>
+<!-- QR Code -->
+
+---
+
+# Table of Contents
+- What is Jest Preview and why I build it?
+- Struggles?
+- What did I got from doing open source software?
+- Open Source Advice
+- Are you ready to start your open source journey?
+  - Star Jest Preview (QR code)
+- Q&A
+
+--- 
+
+#  How I got 1600 stars on GitHub in 2 months of Open Source work
+
+- Why I decided to quit my full-time job to do open source full-time?
+- How to choose the open source project to work on?
+- How to create your own project to work on?
+- What struggles an open source software maintainers have to deal with, but people don't know about (stress, financial...)?
+- Instead of being an engineer in a company, an author of an open source software project has to play many roles: engineers, testers, PM, designers, marketing...
+- How to manage time efficiently as a full time open source contributor>
+- What should we do when our project gets attention from people around the world?
+- Advice/ Encourage everyone to start working on an open source project.
+
+
+---
+
+# How to choose a open source project to work on?
+
+- Must be the project you use everyday
+  - tweet: Use it
+  - react-..., vscode extensions,...
+
+--- 
+
+# Struggles
+
+- Difficult.
+
+```js 
+import styles from './styles.module.css';
+
+<div className={styles.button}>Click me</div>
+```
+E.g: We might know how to use CSS Modules, but we might not need to know how CSS Modules work under the hood
+
+<v-click>
+```js
+require('postcss-modules')({
+    getJSON: (cssFileName, json, outputFileName) => {
+      console.log(JSON.stringify(json));
+    },
+    generateScopedName: function (name, filename, css) {
+      const stringHash = require('string-hash');
+      const i = css.indexOf('.' + name);
+      const line = css.substr(0, i).split(/[\\r\\n|\\n|\\r]/).length;
+      const removedNewLineCharactersCss = css.replace(/(\\r\\n|\\n|\\r)/g, '');
+      const hash = stringHash(removedNewLineCharactersCss).toString(36).substr(0, 5);
+      return '_' + name + '_' + hash + '_' + line;
+    },
+  })
+```
+</v-click>
+
+---
+
+# Struggles
+
+- Time
+- To add an image to the right
+
+---
+
+# Struggles
+
+- Since it's an open source project, many people will come to help you
+- Not true
+- Alone
+- Sometimes you want to give up/ archive the project
+
+---
+
+# Struggles
+
+- Financially 💸
+- GitHub Sponsors
+- Open Collective
+
+---
+
+# What did I got from doing open source software?
+
+<v-click>
+
+- Knowledge. Lot of knowledge.
+
+</v-click>
+
+<v-click>
+
+- Read open source code a lot => work with new project/ debugging skills improved
+
+</v-click>
+
+<v-click>
+
+- Understand how your tools you use everyday work => Better programmer
+
+</v-click>
+
+<v-click>
+
+- Rabbit hole: Jest, Vite core, CRA core, Websocket, chokidar, shebang, PostCSS, Babel...
+
+</v-click>
+
+---
+
+# What did I got from doing open source software?
+
+
+Opportunities:
+
+
+<v-click>
+
+- Nominated for the Most Exciting Use of Technology, React Open Source Awards, React Summit
+<!-- TODO: Insert image has all nominees -->
+</v-click>
+
+<v-click>
+
+- Jobs: Companies reach out
+
+</v-click>
+
+<v-click>
+
+- Conferences/ Tech events
+<!-- Insert image -->
+
+</v-click>
+
+--- 
+
+# What did I got from doing open source software?
+
+
+Network:
+
+
+- Twitter
+<div class="flex gap-1 m-b-2">
+<img src="/public/nw1.png" />
+<img src="/public/nw2.png" />
+</div>
+<div class="flex gap-1 m-b-2">
+<img src="/public/nw3.png" />
+<img src="/public/nw4.png" />
+</div>
+<img src="/public/nw5.png" />
+
+---
+
+# What did I got from doing open source software?
+
+
+Network:
+
+
+- In-person
+- Maya
+- Tan Li Hau
+- Evan You
+
+---
+
+# What did I got from doing open source software?
+
+
+People thanked me:
+
+To add some thank you note
+
+=> Motivation for me to keep doing it
+
+<!-- 9-5 -->
+
+
+---
+
+# So...
+
+Contribute to Open Source today.
+
+<v-click>
+
+How to do that?
+
+</v-click>
+---
+layout: center
+class: text-center
+---
+
+# Open Source Advice
+
+---
+
+# How to choose a open source project to work on?
+
+
+---
+
+# Find a maintainer
+
+
+---
+
+# Do not start at 1.x
+
+
+---
+
+# Use your own software
+
+
+---
+
+# Ask for feedback
+
+---
+
+# Learn from others
+
+![](https://pbs.twimg.com/media/FVxLZjfUcAAcByv?format=jpg&name=900x900)
+
+---
+
+# Write good Documentations
+
+- https://www.jest-preview.com
+- https://docusaurus.io
+- https://vitepress.vuejs.org
+---
+
+# Marketing/ Advertising
+
+- Twitter
+- Blog Posts
+- Tech events
 
 ---
 
