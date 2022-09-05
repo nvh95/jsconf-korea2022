@@ -1,27 +1,19 @@
 ---
-# try also 'default' to start simple
 theme: seriph
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
 background: https://source.unsplash.com/collection/94734566/1920x1080
-# apply any windi css classes to the current slide
-class: 'text-center'
-# https://sli.dev/custom/highlighters.html
+class: text-center
 highlighter: shiki
-# show line numbers in code blocks
 lineNumbers: false
-# some information about the slides, markdown enabled
 info: |
   ## Slidev Starter Template
   Presentation slides for developers.
 
   Learn more at [Sli.dev](https://sli.dev)
-# persist drawings in exports and build
 drawings:
   persist: false
-# use UnoCSS (experimental)
 css: unocss
 title: How I got 1600 stars on GitHub in 2 months of Open Source work
+download: true
 ---
 
 # How I got 1600 stars on GitHub in 2 months of Open Source work
@@ -77,9 +69,7 @@ QR Code
 - What is Jest Preview and why I built it?
 - What struggles I have to overcome when building an OSS project?
 - What did I receive from doing OSS?
-- Advice if you want to build your own OSS project.
-<!-- - Are you ready to start your open source journey?
-  - Star Jest Preview (QR code) -->
+- Some tips if you want to dip your toes into OSS
 - Q&A
 
 
@@ -148,6 +138,12 @@ image: https://source.unsplash.com/L0xOtAnv94Y/1920x1080
 
 - It takes a lot of time
 
+<v-click>
+
+=> You need to manage your time well
+
+</v-click>
+
 
 ---
 layout: image-right
@@ -156,11 +152,9 @@ image: https://source.unsplash.com/Md73pphIB-U/1920x1080
 
 # Struggles
 
-<v-click>
 
 - Since it's an open source project, many people will come to help you
 
-</v-click>
 
 <v-click>
 
@@ -174,7 +168,16 @@ image: https://source.unsplash.com/Md73pphIB-U/1920x1080
 
 </v-click>
 
+<v-click>
 
+=> Why you start OSS in the first place?
+
+</v-click>
+
+
+---
+layout: image-right
+image: https://source.unsplash.com/-8a5eJ1-mmQ/1920x1080
 ---
 
 # Struggles
@@ -197,30 +200,38 @@ image: https://source.unsplash.com/Md73pphIB-U/1920x1080
 
 </v-click>
 
+<v-click>
+
+- Fremium model
+
+</v-click>
+
+<v-click>
+
+- Just do it for fun
+
+</v-click>
+
 
 ---
 
 # What did I got from doing open source software?
 
-<v-click>
 
 - Knowledge. Lot of knowledge.
 
-</v-click>
+<img src="/meme/knowledge.jpg" width="300" />
+
 
 <v-click>
 
 - Read open source code a lot => code reading/ debugging skills improved
 
-</v-click>
 
-<v-click>
 
 - Understand how your tools you use everyday work under the hood => Better programmer
 
-</v-click>
 
-<v-click>
 
 - Rabbit hole: Jest, Vite core, CRA core, Websocket, chokidar, shebang, PostCSS, Babel...
 
@@ -232,7 +243,9 @@ image: https://source.unsplash.com/Md73pphIB-U/1920x1080
 # What did I got from doing open source software?
 
 
-Opportunities:
+- **Opportunities:**
+
+<img src="/opportunity.jpg" width="300" />
 
 
 <v-click>
@@ -306,10 +319,12 @@ I received a lot of thanks:
 <div class="flex gap-1 m-b-2">
   <img src="/thanks/thanks1.jpg" class="object-contain" width="300" />
   <img src="/thanks/thanks2.jpg" class="object-contain" width="200" />
+  <img src="/thanks/thanks5.png" class="object-contain" width="300" />
 </div>
 <div class="flex gap-1 m-b-2">
-  <img src="/thanks/thanks3.jpg" class="object-contain" width="150" />
-  <img src="/thanks/thanks4.jpg" class="object-contain" width="200" />
+  <img src="/thanks/thanks3.jpg" class="object-contain" width="250" />
+  <img src="/thanks/thanks4.jpg" class="object-contain" width="250" />
+  <img src="/thanks/thanks6.png" class="object-contain" width="280" />
 </div>
 
 <!--
@@ -332,7 +347,7 @@ layout: center
 class: text-center
 ---
 
-# Open Source Advice
+# Some Open Source Tips
 
 
 ---
@@ -363,12 +378,16 @@ class: text-center
 - 1.x means your software must be backward compatible
 - Major version zero (0.y.z) is for initial development. Anything MAY change at any time. The public API SHOULD NOT be considered stable.
 
+<img src="/glass-broken.jpg" width="400" />
+
 
 ---
 
 # Use your own software
 
 - When you use it as a normal user, you know if you need to adjust or add more features to make it usable
+
+<img src="/use-own-software.jpg" width="400" />
 
 
 ---
@@ -391,13 +410,11 @@ Do not reinvent the wheel. There is much good software out there already solved 
 -->
 
 ---
+layout: iframe-right
+url: https://www.jest-preview.com
+---
 
-# Write good Documentations
-- https://www.jest-preview.com
-
-<img src="/jest-preview-docs.jpeg" width="400"/>
-
-<br />
+# Write documentations
 
 Use static site generator:
 - If you prefer React: https://docusaurus.io
@@ -405,12 +422,18 @@ Use static site generator:
 
 
 ---
+layout: two-cols
+---
 
-# Marketing/ Advertising
+# Share it to the world
 
 - Twitter
 - Blog Posts
 - Tech events
+
+::right::
+
+<Tweet id="1537041278956756992" scale="0.7" />
 
 <!--
 Last but not least
@@ -442,3 +465,6 @@ class: text-center
 # Thanks for your attention!
 
 Q&A
+<div>
+<img src="/qr-jest-preview.png" width="200" class="mx-auto" />
+</div>
