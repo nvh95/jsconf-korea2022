@@ -67,7 +67,7 @@ QR Code
 
 # Table of Contents
 - What is Jest Preview and why I built it?
-- What struggles I have to overcome when building an OSS project?
+- What struggles do I have to overcome when building an OSS project?
 - What did I receive from doing OSS?
 - Some tips if you want to dip your toes into OSS
 - Q&A
@@ -78,7 +78,7 @@ QR Code
 # What is Jest Preview and why I built it?
 
 
-<img src="/debug-terminal.png" width="600" />
+<img src="/debug-terminal.png" width="600" class="mx-auto" />
 
 
 ---
@@ -86,7 +86,7 @@ QR Code
 # What is Jest Preview and why I built it?
 
 
-<img src="/jest-preview-demo.gif" width="600" />
+<img src="/jest-preview-demo.gif" width="600" class="mx-auto" />
 
 
 ---
@@ -94,7 +94,7 @@ layout: center
 class: text-center
 ---
 
-# What struggles I have to overcome when building an OSS project?
+# What struggles do I have to overcome when building an OSS project?
 
 
 ---
@@ -144,6 +144,14 @@ image: https://source.unsplash.com/L0xOtAnv94Y/1920x1080
 
 </v-click>
 
+<v-click>
+
+=> Always have a plan 
+
+(A Good Plan Today is Better than a Perfect Plan Tomorrow)
+
+</v-click>
+
 
 ---
 layout: image-right
@@ -170,7 +178,7 @@ image: https://source.unsplash.com/Md73pphIB-U/1920x1080
 
 <v-click>
 
-=> Why you start OSS in the first place?
+=> Why do you start OSS in the first place?
 
 </v-click>
 
@@ -202,7 +210,7 @@ image: https://source.unsplash.com/-8a5eJ1-mmQ/1920x1080
 
 <v-click>
 
-- Fremium model
+- Freemium model
 
 </v-click>
 
@@ -215,10 +223,10 @@ image: https://source.unsplash.com/-8a5eJ1-mmQ/1920x1080
 
 ---
 
-# What did I got from doing open source software?
+# What did I receive from doing open source software?
 
 
-- Knowledge. Lot of knowledge.
+- Knowledge. A lot of knowledge.
 
 <img src="/meme/knowledge.jpg" width="300" />
 
@@ -226,10 +234,7 @@ image: https://source.unsplash.com/-8a5eJ1-mmQ/1920x1080
 <v-click>
 
 - Read open source code a lot => code reading/ debugging skills improved
-
-
-
-- Understand how your tools you use everyday work under the hood => Better programmer
+- Understand how the tools you use everyday work under the hood => Better programmer
 
 
 
@@ -240,17 +245,17 @@ image: https://source.unsplash.com/-8a5eJ1-mmQ/1920x1080
 
 ---
 
-# What did I got from doing open source software?
+# What did I receive from doing open source software?
 
 
 - **Opportunities:**
 
-<img src="/opportunity.jpg" width="300" />
 
 
 <v-click>
 
 - Nominated for the Most Exciting Use of Technology, React Open Source Awards, React Summit
+<img src="/jest-preview-nominee.png" width="300" class="mx-auto"/>
 <!-- TODO: Insert image has all nominees -->
 </v-click>
 
@@ -270,7 +275,7 @@ image: https://source.unsplash.com/-8a5eJ1-mmQ/1920x1080
 
 ---
 
-# What did I got from doing open source software?
+# What did I receive from doing open source software?
 
 
 Know great developers:
@@ -290,7 +295,7 @@ Know great developers:
 
 ---
 
-# What did I got from doing open source software?
+# What did I receive from doing open source software?
 
 
 Know great developers:
@@ -312,7 +317,7 @@ Know great developers:
 
 ---
 
-# What did I got from doing open source software?
+# What did I receive from doing open source software?
 
 
 I received a lot of thanks:
@@ -347,14 +352,14 @@ layout: center
 class: text-center
 ---
 
-# Some Open Source Tips
+# Some tips to start your OSS journey
 
 
 ---
 
-# How to choose a open source project to work on?
+# How to choose an open source project to work on?
 
-- Should be projects you use everyday
+- Should be projects you use every day
 <Tweet id="1543771988333715456" scale="0.65" />
 
 - Should solve your own problem
@@ -425,7 +430,7 @@ Use static site generator:
 layout: two-cols
 ---
 
-# Share it to the world
+# Share it with the world
 
 - Twitter
 - Blog Posts
@@ -468,3 +473,7 @@ Q&A
 <div>
 <img src="/qr-jest-preview.png" width="200" class="mx-auto" />
 </div>
+
+<p class="text-xs">Try <a href="https://github.com/nvh95/jest-preview" target="_blank">Jest Preview</a> and give it a star since it's free 😝</p>
+
+<small>Slides available at <a href="https://jsconf.hung.dev/" target="_blank">https://jsconf.hung.dev/</a></small>
