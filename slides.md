@@ -29,7 +29,6 @@ download: true
   </div>
 </div>
 
-<!-- TODO: Add jest preview logo and QR code -->
 
 <style>
   .slidev-layout.cover h1, .slidev-layout.intro h1 {
@@ -47,7 +46,6 @@ image: /hung.jpg
 ---
 
 # Hi, My name is Hung 👋
-<!-- TODO: Profile image in the right (use layout) -->
 
 - Full-time Open Source contributor
 - Creator of <a href="https://github.com/nvh95/jest-preview">Jest Preview</a>
@@ -256,7 +254,6 @@ image: https://source.unsplash.com/-8a5eJ1-mmQ/1920x1080
 
 - Nominated for the Most Exciting Use of Technology, React Open Source Awards, React Summit
 <img src="/jest-preview-nominee.png" width="300" class="mx-auto"/>
-<!-- TODO: Insert image has all nominees -->
 </v-click>
 
 <v-click>
