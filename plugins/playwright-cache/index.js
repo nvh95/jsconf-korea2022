@@ -6,13 +6,13 @@ module.exports = {
   //  - the directory already exists locally
   //  - the directory has never been cached
   async onPreBuild({ utils }) {
-      await utils.cache.restore('./.cache')
+      await utils.cache.restore('/opt/buildhome/.cache/ms-playwright')
   },
   // After the build is done,
   // cache directory for future builds.
   // Does not do anything if:
   //  - the directory does not exist
   async onPostBuild({ utils }) {
-      await utils.cache.save('./.cache')
+      await utils.cache.save('/opt/buildhome/.cache/ms-playwright')
   }
 }
