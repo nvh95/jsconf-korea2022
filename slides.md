@@ -21,6 +21,7 @@ download: true
 <!-- TODO:
 - Show slide number
  -->
+<p class="text-xs">Press Space or ➡ for next page</p>
 
 <div class="pt-13 relative">
   <div class="absolute px-2 py-1 rounded cursor-pointer right-0" hover="bg-white bg-opacity-10">
@@ -254,6 +255,7 @@ image: https://source.unsplash.com/-8a5eJ1-mmQ/1920x1080
 
 - Nominated for the Most Exciting Use of Technology, React Open Source Awards, React Summit
 <img src="/jest-preview-nominee.png" width="300" class="mx-auto"/>
+
 </v-click>
 
 <v-click>
