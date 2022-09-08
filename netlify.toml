@@ -11,5 +11,6 @@
   to = "/index.html"
   status = 200
 
-[[plugins]]
-    package = "./plugins/playwright-cache"
+# Install via Netlify Plugins Directory
+# [[plugins]]
+#    package = "./plugins/playwright-cache"
