@@ -311,6 +311,12 @@ Know great developers:
   <img src="/network/tan.jpg" class="object-cover" width="300" />
 </div>
 
+<v-click>
+
+- You guys at JSConf Korea 2022 ❤️
+
+</v-click>
+
 <!--
 - Maya
 - Tan Li Hau
