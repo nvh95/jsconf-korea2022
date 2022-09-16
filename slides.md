@@ -1,6 +1,6 @@
 ---
 theme: seriph
-background: https://source.unsplash.com/collection/94734566/1920x1080
+background: /cover.jpeg
 class: text-center
 highlighter: shiki
 lineNumbers: false
@@ -26,7 +26,6 @@ download: true
 <div class="pt-13 relative">
   <div class="absolute px-2 py-1 rounded cursor-pointer right-0" hover="bg-white bg-opacity-10">
     <div>https://twitter.com/hung_dev</div>
-     <div>https://github.com/nvh95</div>
   </div>
 </div>
 
@@ -39,6 +38,23 @@ download: true
 
 <!--
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
+-->
+
+---
+layout: center
+class: text-center
+---
+
+# 🙌 Have you contributed to any Open Source projects?
+
+<v-click>
+
+If you haven't, I hope you will after my talk 😝.
+
+</v-click>
+
+<!--
+Raise your hands
 -->
 
 ---
@@ -59,7 +75,8 @@ image: /hung.jpg
   - 🔗: <a href="https://hung.dev" target="_blank">hung.dev</a>
 
 <!--
-QR Code
+- Jest Preview: give you a visual debugging experience when testing a frontend app
+-bestofjs: website helps you follow the growth of javascript ecosystem
 -->
 
 ---
@@ -68,7 +85,7 @@ QR Code
 - What is Jest Preview and why I built it?
 - What struggles do I have to overcome when building an OSS project?
 - What did I receive from doing OSS?
-- Some tips if you want to dip your toes into OSS
+- Some tips if you want to dip your toes into OSS.
 - Q&A
 
 
@@ -154,6 +171,9 @@ image: https://source.unsplash.com/L0xOtAnv94Y/1920x1080
 
 </v-click>
 
+<!--
+- especially if you have a full-time job
+-->
 
 ---
 layout: image-right
@@ -198,6 +218,13 @@ image: https://source.unsplash.com/-8a5eJ1-mmQ/1920x1080
 
 </v-click>
 
+
+<v-click>
+
+- Just do it for fun
+
+</v-click>
+
 <v-click>
 
 - GitHub Sponsors
@@ -216,12 +243,10 @@ image: https://source.unsplash.com/-8a5eJ1-mmQ/1920x1080
 
 </v-click>
 
-<v-click>
 
-- Just do it for fun
-
-</v-click>
-
+<!--
+- do it for fun: OK, no problem
+-->
 
 ---
 
@@ -244,6 +269,10 @@ image: https://source.unsplash.com/-8a5eJ1-mmQ/1920x1080
 
 </v-click>
 
+<!--
+- know how bundler works under the hood
+-how to process CSS in a modern web application under the hood
+-->
 
 ---
 
@@ -318,7 +347,7 @@ Know great developers:
 </v-click>
 
 <!--
-- Maya
+- Maya Shivin
 - Tan Li Hau
 - Evan You
 -->
@@ -372,16 +401,21 @@ class: text-center
 
 - Should solve your own problem
 
+<!--
+- difficult to contribute to a project that you don't have context
+-->
 
 ---
 
 # Find a maintainer
 
-- Building an OS project is hard and stressful. 
-- It would be easier to have someone to discuss technical and motivate you to continue the project. 
 
 <img src="https://pbs.twimg.com/media/FVxLXjtUYAESaYE?format=jpg&name=medium"  width="500"/>
 
+<!--
+- Building an OSS project is hard and stressful. 
+- It would be easier to have someone to discuss technical and motivate you to continue the project.
+-->
 
 ---
 
@@ -402,6 +436,16 @@ class: text-center
 
 <img src="/use-own-software.jpg" width="400" />
 
+<!--
+You start a project to solve a particular issue. 
+But when you use it as a normal user, you know if it is good enough, or if you need to adjust and add more features to make it usable.
+
+all I want is to preview the UI in Jest to Chrome 🖼. PERIOD. But the more I use it, the more features I added to make it easier to use:
+• Auto reload on Save
+• Process CSS, images
+• Automatic mode
+• Pre-configured/ codemod
+-->
 
 ---
 
@@ -411,6 +455,11 @@ class: text-center
 
 <img src="https://pbs.twimg.com/media/FVxLZAkUsAAlP9L?format=jpg&name=medium" width="500"/>
 
+<!--
+- can be subjective. 
+Let’s ask your friends, your colleagues and your network what project should change to be more usable. 
+After a while when your project gets more attention, watch out for the Issues and Discussion tabs
+-->
 
 ---
 
@@ -419,7 +468,8 @@ class: text-center
 ![](https://pbs.twimg.com/media/FVxLZjfUcAAcByv?format=jpg&name=900x900)
 
 <!--
-Do not reinvent the wheel. There is much good software out there already solved your problems. Learn from them, read their source code to see how they do.
+- Do not reinvent the wheel. There is much good software out there already solved your problems. Learn from them, read their source code to see how they do.
+- jest preview learn from many amazing projects: Vite, CRA
 -->
 
 ---
@@ -433,6 +483,9 @@ Use static site generator:
 - If you prefer React: https://docusaurus.io
 - If you prefer Vue: https://vitepress.vuejs.org
 
+<!--
+It’s very easier for you to use your own software. But people around the world have different and special use cases. Describe what problems your project solves, installation, usage, and also caveats they might encounter clearly in the documentation.
+-->
 
 ---
 layout: two-cols
